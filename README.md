@@ -15,4 +15,5 @@ CGInside KMPG Project Team A
   - Git 관리
 - **임동건([limdg119](https://github.com/limdg119))**
   - Git 공부
-  
+- **고유정([JessicaKYJ](https://github.com/JessicaKYJ))**
+  - Git 공부  
