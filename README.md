@@ -13,3 +13,6 @@ CGInside KMPG Project Team A
 - **노희찬([hypeduck](https://github.com/hypeduck))**
   - Git 공부, 설명
   - Git 관리
+- **임동건([limdg119](https://github.com/limdg119))**
+  - Git 공부
+  
