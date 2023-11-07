@@ -1,7 +1,15 @@
-# cgaside
+# CGASide
 
-# 프로젝트 팀
+CGInside KMPG Project Team A
 
-- 멘토 이광춘
-- 멘티
-  -   
+# Members & Roles
+
+## Mentor
+
+- 이광춘([statkclee](https://github.com/statkclee))
+
+## Mentee
+
+- **노희찬([hypeduck](https://github.com/hypeduck))**
+  - Git 공부, 설명
+  - Git 관리
