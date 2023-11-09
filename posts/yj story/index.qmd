@@ -3,13 +3,14 @@ title: "YuJeong's first post"
 author: "Yu Jeong"
 date: "2023-11-09"
 categories: [new, analysis]
+image: "keynote.jpg"
 ---
-OpenAI DevDay
 
-YuJeong's first post
 
-## 고유정 포스트
-# OpenAI DevDay
+# Live Blog: OpenAI DevDay Keynote With Sam Altman From San Francisco
+
+written by Ko Yu Jeong
+<br>
 
 ### The OpenAI DevDay event, led by Sam Altman, was an electrifying showcase of technological prowess and innovation. 
 
@@ -43,27 +44,27 @@ OpenAI의 발표는 AI가 단순한 트렌드가 아니라, 인류가 직면한 
 
 
 
-  * 
-
-    + 더하기
   
 
+    + GPT-4 Turbo, Assistants API,AI Integration and Empowerment 
+  <br>
+  
 
+<hr>
 
 ### Ref Link
 * Youtube Link added here.
 [Youtube 링크](https://www.youtube.com/watch?v=U9mJuUkhUzk, "Youtube")
 
 
-### Image
-![Alt text](/path/to/img.jpg)
 
 
 
 
 
 
-![](photo.jpeg)
+
+
 
 
 
