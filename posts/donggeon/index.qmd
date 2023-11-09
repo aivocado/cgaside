@@ -1,0 +1,16 @@
+---
+title: "Donggeon's first post"
+author: "Dong Geon"
+date: "2023-11-09"
+categories: [new, analysis]
+image : donggeon_image.jpeg
+---
+OpenAI DevDay 감상문 예정
+
+
+## 임동건 포스트
+# OpenAI DevDay 감상문 작성 예정
+
+### 블라블라. 
+
+
