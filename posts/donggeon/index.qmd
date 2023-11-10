@@ -3,7 +3,7 @@ title: "OpenAI DevDay, Opening Keynote 임동건"
 author: "DG Lim"
 date: "2023-11-09"
 categories: [news, analysis]
-image : OpenAI_DevDay_Opening_Keynote_image.png
+image : OpenAI_DevDay_Opening Keynote_image.png
 ---
 # OpenAI DevDay, Opening Keynote #  
 <br/>
