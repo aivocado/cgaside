@@ -1,24 +1,53 @@
 ---
-title: "YuJeong's first post"
-author: "Yu Jeong"
+title: "OpenAI Dev Day Recap 고유정"
+author: "YJ Ko"
 date: "2023-11-09"
-categories: [new, analysis]
+categories: [news, analysis]
+image : openai.png
 ---
-OpenAI DevDay
+# OpenAI Dev Day Recap: Revolutionary Developments and AI Advances #  
+<br/>
 
-YuJeong's first post
-이 텍스트는 OpenAI의 개발자 대회(DevDay)에서 Sam Altman이 한 발표의 전문입니다. 그는 OpenAI가 지난 한 해 동안 이룬 성과들을 소개하고, 새로운 기능과 서비스를 발표했습니다. 발표 내용에는 ChatGPT의 'low-key research preview'로부터 시작하여 GPT-4의 출시, 그리고 음성 및 시각 능력을 갖춘 ChatGPT, 그리고 DALL-E 3와 같은 세계에서 가장 진보된 이미지 모델까지 여러 발전이 포함되었습니다. 그는 또한 OpenAI가 어떻게 사람들의 일상 생활과 창의적 작업을 도와주고 있는지 여러 사례를 통해 보여주었습니다. 이어서 새로운 GPT-4 Turbo 모델, 기능 향상, 더 긴 컨텍스트 길이 지원, JSON 모드, 더 나은 세계 지식, 새로운 모달리티 지원 등을 발표했습니다. 이러한 개선은 개발자들이 더 쉽게 AI를 자신들의 앱과 서비스에 통합할 수 있도록 돕기 위함입니다.
+### Main Idea
+OpenAI가 최근 DevDay에서 발표한 최신 GPT모델 업데이트, 새로운 서비스 GPTs에 대한 정보 요약 및  느낀점
 
-또한, 그는 Microsoft와의 깊은 협력 관계를 강조하며, Microsoft의 CEO인 Satya Nadella가 무대에 올라 두 회사 간의 파트너십과 AI의 미래에 대해 이야기했습니다. 발표의 끝부분에서는 개발자들이 쉽게 자신만의 ChatGPT 버전을 만들고 공유할 수 있는 GPTs라는 새로운 개념을 소개하며, 이를 통해 사용자들이 더 풍부하고 개인화된 경험을 할 수 있게 될 것이라고 설명했습니다.
+### Key Points
+* GPTs로 인해, 개인/스타트업 등이 손쉽게 자체 서비스를 만들 수 있음.
+* GPT-4 모델이 반값됨. 황의 법칙, 무어의 법칙은 진리인듯함. 앞으로 더 싸질 것.
+* Agents 기능 강화와 멀티모달 기능강화로 자동화, 이미지 인식, 처리, 음성 인식 및 처리가 더 쉽고 정확해짐.
+   
+### Supporting Ideas ###  
 
-이 발표는 기술의 진보와 그것이 사회에 미치는 긍정적 영향에 대한 강한 낙관론을 내포하고 있습니다. OpenAI는 AI 기술을 통해 개인의 권한을 강화하고, 창의적인 작업을 돕는 것을 목표로 하고 있으며, 그들이 소개한 새로운 도구들은 개발자들에게 큰 가능성을 열어줄 것으로 보입니다. 이 발표는 AI 기술이 사람들의 삶에 가져올 변화를 두려워하기보다는 그것을 어떻게 활용하고, 우리 사회에 긍정적인 영향을 끼칠 수 있을지에 대해 고민하고 준비해야 함을 강조합니다. OpenAI가 앞으로도 사용자들의 피드백을 바탕으로 시스템을 지속적으로 업데이트하고, AI 기술이 일상 곳곳에 통합될 때 우리 모두가 요구할 때마다 '수퍼파워'를 갖게 될 미래를 기대하며 발표를 마쳤습니다.
+1. GPT-4 Turbo: OpenAI의 새로운 모델로, 128,000 토큰 컨텍스트를 지원
+2. Json 모드: 출력을 json 형식으로만 제공
+3. 펑션 콜링 개선: 여러 함수를 동시에 처리
+4. Reproducible output: 동일한 시드 파라미터를 사용하면 동일한 결과 도출
+5. 데이터 학습기간: 2021년 9월부터 2023년 4월까지 반영
+6. 새로운 모달리티: GPT-4 Turbo with vision, 달리3, TTS등이 API로 제공
+7. Whisper V3: 오픈소스 모델로 API 제공 예정
+8. GPT-3.5 및 GPT-4파인튜닝: GPT-3.5의 16k 버전 공개되었고 GPT-4 파인튜닝은 일부 실험에 접근이 허용
+9. 커스텀모델: 특정 도메인 학습을 위한 모델 훈련이 가능
+10. Copyright shield: 엔터프라이즈와 API 사용자들을 위한 저작권 보호기능
+11. GPT-4 및 GPT-3.5 가격 인하: GPT-4의 가격이 대폭 인하
 
+<br/>
 
-![](photo.jpeg)
+### Conclusion ###  
+  
 
-## 고유정 포스트
-# OpenAI DevDay
+- 챗봇 분야에서 코딩의 영향력이 적어질것입니다. 코딩을 할 줄 알면 fine tuning이 가능하지만 proof of concept을 만들고 유용한 시나리오인지 판단하는 측면에서 코딩의 영향력이 적습니다. 
 
-### The OpenAI DevDay event, led by Sam Altman, was an electrifying showcase of technological prowess and innovation. 
+- 앞으로 AI 영역에서 퍼블릭 클라우드의 영역이 줄어들 가능성이 큽니다.
 
+- 자연어/이미지/음성 처리 분야에서는 GPT store가 App Store를 대체할 것입니다.
 
+- Open AI도 수익이 발생하는 곳은 기업 고객 시나리오라는 것을 잘 인지한 상태입니다. enterprise use case, security, data privacy, copyright 등을 논의한 지점이 그러합니다. 
+
+- 추가적으로 MS는 든든한 우군을 얻었으나 언제까지 속해있을지는 미지수입니다. 구글이나 아마존은 불안한 상태이지만 그들도 다른 준비를 하고 있기 때문에 계속해서 새로운 플랫폼이 나올 것입니다.
+
+<br/>
+<br/>
+
+---
+# Writer : 고유정 #
+<img src="photo.jpeg" width="200" height="200">
