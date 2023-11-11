@@ -3,29 +3,30 @@ project:
   output-dir: "docs"
 
 website:
-  title: "cgaside"
+  title: "CGAlpha"
+  favicon: "assets/cgalpha_favicon.png"
   navbar:
+    logo: "assets/cgalpha_logo_horizontal.png"
+    title: false
     left:
       - href: index.qmd
-        text: "홈"
+        text: "HOME"
       - text: "기술문서"
-        menu: 
+        menu:
           - href: overview.qmd
             text: "개발개요"
           - text: "-----------"
           - href: data.qmd
             text: "데이터"
-            
+
     right:
       - about.qmd
+
+    tools:
       - icon: github
         href: https://github.com/aivocado/cgaside
-      - icon: twitter
-        href: https://twitter.com
+
 format:
   html:
     theme: cosmo
     css: styles.css
-
-
-
