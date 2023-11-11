@@ -1,19 +1,25 @@
 ---
-title: "KPMG 캡스톤"
-image: profile.jpg
+title: "KPMG Capstone Project"
+image: "assets/cgalpha_logo.png"
 about:
   template: jolla
+  image-shape: rectangle
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
     - icon: github
       text: Github
       href: https://github.com/aivocado/cgaside
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
 
 ---
 
 노희찬, 고유정, 임동건 으로 구성된 팀입니다.
+
+## Team Member
+
+### 노희찬
+
+### 임동건
+
+### 고유정

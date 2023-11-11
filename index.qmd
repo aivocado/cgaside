@@ -1,5 +1,5 @@
 ---
-title: "cgaside"
+title: "CGAlpha : CGINSIDE X KPMG Internship Team A"
 listing:
   contents: posts
   sort: "date desc"
@@ -10,6 +10,3 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
-
-
-프로젝트를 시작합니다!!!
