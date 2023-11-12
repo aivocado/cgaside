@@ -1,0 +1,94 @@
+---
+title: "OpenAI's 1st Devday Recap"
+author: "hypeduck"
+date: "2023-11-12"
+categories: [news, analysis]
+image : "OpenaiDevday.png"
+---
+
+![](OpenaiDevday.png)
+
+# OpenAI's 1st Developer Conference
+
++ ChatGPT 출시 이후 약 1년 만에 개발사인 OpenAI가 샌프란시스코에서 첫 번째 개발자 컨퍼런스를 개최.  
++ [기조연설](https://www.youtube.com/live/U9mJuUkhUzk?si=d0D1KMQEbc6D3yus)과 공식 블로그 포스팅([1](https://openai.com/blog/new-models-and-developer-products-announced-at-devday), [2](https://openai.com/blog/introducing-gpts))를 참고하여 주요한 내용들을 기준으로 느낌점을 정리.
+
++ ChatGPT 출시 : 2022-11-30  
+  OpenAI's 1st DevDay : 2023-11-06
+
+# Key Points
+
+1. 확장성 : GPTs, GPT Store
+2. 일반 : GPT 4 Turbo = AGI(일반 인공 지능)
+   + 이미지(DALL·E 3), 음성(ASR & TTS) 등 통합
+   + 128k 모델 크기 증가, 1/2로 비용 감소
+3. 개발자 : Assistants API, JSON, Seed, GPT 4 Fine Tuning
+4. 기업 : 강화학습 기반 커스텀 모델, 보안
+
+## 1. Extensibility : GPTs & GPT Store
+
++ **[GPTs](https://chat.openai.com/gpts/editor)**
+  + 대화만으로 보다 손쉬운 GPT 사용자화 모델 생성 및 저장 가능.
+  + 기존 GPT를 사용자화하기 위해서는 Prompt Engineering이나 Fine Tuning 등의 방법을 통해 훈련을 시킬 수 밖에 없었다.
+    + Prompt Engineering의 경우, 방법을 알아야할 뿐더러 휘발성이 있었기 때문에 영구적이지 않다.
+    + Fine Tuning의 경우, 학습에 따른 비용이 발생하고, 결코 저렴하다고는 볼 수 없다.
+  + 이를 GUI, Coding도 아닌 자연어 대화만으로 모델을 생성할 수 있도록 보조자인 GPT Builder를 제공한다.
+  + 생성한 GPTs 모델을 일반 사용자가 사용할 때, 데이터를 공유할 지 말 지도 선택하여 정보를 보호한다.
+
++ **GPT Store** (11월 말 예정)
+  + 생성한 GPTs를 다른 사용자들과 공유하거나, 수익을 창출하기 위한 스토어.
+  + Apple이 AppStore를 통해 제한적으로 확장성을 제공하면서 폭발적인 성장의 하나의 계기가 된 만큼, 기대가 된다.
+
+## 2. For Users : GPT 4 Turbo = AGI
+
++ ChatGPT는 자연어 대화형식 만으로도 충분히 성과를 냈지만,  
+  궁극적으로 AI에게 바라는 것은 일반적인 상황에서 인간과 같이 시각, 청각 등의 모든 입출력 요소를 활용 여부이다.   
+  이를 AGI(Artificial General Intelligence), 일반 인공지능으로 부르고, 강인공지능으로 분류한다.  
++ GPT 4는 이제 사용자가 매번 설정을 스위치할 필요 없이, 통합된 사용성을 제공한다.
+
+### Integrated Multimodality
+  + 이미지 : **DALL·E 3**
+    + 2023년 9월 공개되어, 인기 모델인 MidJourney와 Stable Diffusion보다 요청사항들을 잘 반영한다.
+  + 음성 : Whisper v3
+    + **ASR(Automatic Speech Recognition)**: 자동으로 음성을 인식하여 문자로 변환한다.
+    + **TTS(Text-to-Speech)** : 문자를 다시 음성으로 변환한다. 속도, 정확성 각각에 초점을 둔 2가지 모델이 있다.
+
+### GPT 4 Turbo, GPT 3.5 Turbo (Fine-Tuning)
+  + 모델의 크기는 키워 범용성을 키우고, 비용은 줄였다.
+  + 기존 GPT 4가 8k, 32k만 처리하던 것에 비해, 12만 8천개의 토큰을 처리한다.
+    + 100개의 토큰이 약 영단어 기준으로 약 75개 단어로,  
+      96000개의 단어, 즉 300페이지 분량의 텍스트를 처리할 수 있다.
+  + 데이터를 받아 결과를 발생시키는 것을 추론이라고 한다.   
+    이 추론 과정의 비용이 비싸기 때문에 LLaMA 등의 모델이 나온 이유 중 하나인데,  
+    GPT 4를 기준으로 추론 비용이 절반으로, 입력값의 비용을 1/3로 감소시켰다.  
+  + GPT Database를 기존 2021년 9월에서 최신 2023년 4월로 업데이트했다.
+  + 또한 GPT 4의 잦은 사용으로 제한이 걸린 경험이 있을 것인데, 이 제한을 약 2배로 늘렸다.
+
+## 3. For Developers : Assistants API
+
++ **JSON(JavaScript Object Notation)**
+  + 모든 질답에 대한 결과를 JSON 형식으로 받을 수 있어, 누락없이 구조화된 데이터를 다룰 수 있다.
+
++ **Seed**
+  + 흔히 Random Forest의 경우처럼 결과에 대한 일관성을 유지할 수 있도록 Seed값을 제공한다.
+  + 전에는 질문마다 약간씩 다른 대답을 했다면, Seed를 통해 대답의 일관성을 보장할 것이다.
+
++ **GPT 4 FIne Tuning**
+  + GPT 3.5가 아닌 GPT 4 버전을 Fine Tuning할 수 있다.
+
+### Assistans API
+  + **Code Interpreter** : Python 코드 생성 및 해석기로 필요한 코드를 뒷단에서 수행한다. 그리고 이전처럼 과정에 대한 보고를 제공하면서 AI의 Blackbox 문제도 해결한다.
+  + **Knowledge Retrieval** : 외부 인터넷과 격리되지 않고 인터넷 검색을 통합적으로 수행할 뿐만 아니라, 사용자 개개인 특정 분야에 대한 지식도 Drag & Drop 만으로 학습시킬 수 있다.
+  + **Parallel Function Calling** : 개발자가 함수화한 기능을 호출할 뿐만 아니라, 기존에는 명령이 누락된 경우가 있었다면, 이를 정확히 체크하고, 복잡한 경우 병렬로 수행한다.
+
+## 4. For Enterprise : Security
+
++ **Custom Models Program**
+  + 학습량이 큰 기업들의 데이터를 활용한 GPT 4 FineTuning을 위해 OpenAI가 기업용 솔루션을 제공한다.
+  + 각 특정 도메인에 맞는 RL(강화학습, RLHF..)을 제공한다.
+  + 당연하게도 이 데이터는 공유되거나, 모델 성능 향상을 위한 데이터로 쓰이지 않는다고 한다.
+
+# TLDR;
+  + GPT 4는 300페이지 분량의 텍스트를 처리할 정도로 성능이 향상됐고, 비용은 감소했다.
+  + GPT 4는 스위치 없이, 이미지 및 음성 등의 처리가 한 번에 가능한 AGI까지로 발전했다.
+  + 이를 바탕으로 자연어로 GPT를 커스터마이징할 수 있는 GPTs를 출시했고, 수익화 스토어인 GPT Store를 제공예정이다.
