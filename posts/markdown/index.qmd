@@ -1,5 +1,5 @@
 ---
-title: "Markddown Syntax"
+title: "Markddown Guide"
 author: "CGAlpha"
 date: "2023-11-13"
 categories: [news, analysis]
@@ -8,7 +8,11 @@ image : Markdown.png
 
 ![](Markdown.png)
 
-# Markdown Syntax #  
+# Getting Started #  
+#### An overview of Markdown, how it works, and what you can do with it. ####
+
+------------------------
+
 
 # Markdown Syntax 마크다운 작성법
 마크다운(Markdown)은 일반 텍스트 문서의 양식을 편집하는 문법입니다.
@@ -31,9 +35,9 @@ README파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서
 * `표준이 없어 사용자마다 문법이 상이할 수 있다.` 문법이 단순하다 보니, 이러한 점을 해결하기 위해 확장문법들이 생겼고, 이러한 것들 때문에 한 곳에서 작동하는 마크다운 문서가 다른 곳에서는 잘 작동하지 않는 경우가 생기기도 합니다.
 
 ---
-title: "MarkDown 문법정리"
-author: "Lee hong ju"
-date: "2023-11-10"
+title: "MarkDown Guide"
+author: "CGAlpha"
+date: "2023-11-13"
 categories: [code]
 ---
 

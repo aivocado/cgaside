@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "CGAlpha : CGINSIDE X KPMG Internship Team A",
     "section": "",
-    "text": "MarkDown 문법정리\n\n\n\n\n\n\n\nnews\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 13, 2023\n\n\nCGAlpha\n\n\n\n\n\n\n  \n\n\n\n\nOpenAI’s 1st Devday Recap\n\n\n\n\n\n\n\nnews\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 12, 2023\n\n\nhypeduck\n\n\n\n\n\n\n  \n\n\n\n\nOpenAI Dev Day Recap 고유정\n\n\n\n\n\n\n\nnews\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 9, 2023\n\n\nYJ Ko\n\n\n\n\n\n\n  \n\n\n\n\nOpenAI DevDay, Opening Keynote 임동건\n\n\n\n\n\n\n\nnews\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 9, 2023\n\n\nDG Lim\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 7, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 4, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "MarkDown Guide\n\n\n\n\n\n\n\nnews\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 13, 2023\n\n\nCGAlpha\n\n\n\n\n\n\n  \n\n\n\n\nOpenAI’s 1st Devday Recap\n\n\n\n\n\n\n\nnews\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 12, 2023\n\n\nhypeduck\n\n\n\n\n\n\n  \n\n\n\n\nOpenAI Dev Day Recap 고유정\n\n\n\n\n\n\n\nnews\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 9, 2023\n\n\nYJ Ko\n\n\n\n\n\n\n  \n\n\n\n\nOpenAI DevDay, Opening Keynote 임동건\n\n\n\n\n\n\n\nnews\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 9, 2023\n\n\nDG Lim\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 7, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 4, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/donggeon/index.html",
@@ -93,7 +93,7 @@
   {
     "objectID": "posts/markdown/index.html#markdown-pros-마크다운-장점",
     "href": "posts/markdown/index.html#markdown-pros-마크다운-장점",
-    "title": "MarkDown 문법정리",
+    "title": "MarkDown Guide",
     "section": "Markdown Pros 마크다운 장점",
     "text": "Markdown Pros 마크다운 장점\n\n읽기 쉽다. 확실히 마크다운은 다른 마크업 언어에 비해 가독성이 좋습니다. 문법도 단순하고, HTML은 작성하면서 브라우저에서 어떻게 보여 질지 예상하는게 쉽지 않지만, 마크다운을 사용한 텍스트는 브라우저에 보여질 내용을 쉽게 상상할 수 있습니다.\n익히기 쉽다. 존 그루버는 사람들이 많이 사용하는 것은 마크다운으로 사용하고, 복잡한 것은 HTML로 사용하기 바랬습니다. 그래서 문법이 매우 간단합니다. 그리고 마크다운으로 글을 작성할 때, 제한적인 기능 몇 개를 제외하고 HTML을 함께 사용해도 상관없습니다.\n모바일 친화적이다. 단순히 텍스트만 작성하는 것이 아닌 에디터를 이용해 모바일로 작성하는 것은 쉽지 않습니다. 하지만 마크다운을 이용하면 모바일에서도 태그로 쉽게 서식을 넣을 수 있어서, 에디터보다 훨씬 편합니다. ## Markdown Cons 마크다운 단점\n문법이 너무 단순하다. 문법이 단순한 나머지 결국에는 HTML을 써야하는 경우가 생깁니다. 테이블 정렬 기능은 있지만, 이미지 정렬 기능이 없어서 HTML의 img 태그를 사용해야합니다. 태그에 클래스 지정등이 불가능하기 때문에, 클래스나 id를 지정하려면 HTML을 사용해야합니다.\n표준이 없어 사용자마다 문법이 상이할 수 있다. 문법이 단순하다 보니, 이러한 점을 해결하기 위해 확장문법들이 생겼고, 이러한 것들 때문에 한 곳에서 작동하는 마크다운 문서가 다른 곳에서는 잘 작동하지 않는 경우가 생기기도 합니다."
   },
@@ -142,8 +142,15 @@
   {
     "objectID": "posts/markdown/index.html#마크다운-문법-정리입니다.",
     "href": "posts/markdown/index.html#마크다운-문법-정리입니다.",
-    "title": "MarkDown 문법정리",
+    "title": "MarkDown Guide",
     "section": "# 마크다운 문법 정리입니다.",
     "text": "# 마크다운 문법 정리입니다.\n\n이건 인용하는데 사용하는 코드입니다.\n\n\n오늘의 할일\n\ngit 공부\n프로젝트 수정\n\n\n\n점 종류\n\n작대기\n\n점\n\n더하기\n\n\n\n\n\n코드 작성\npython 코드\ndef greet(name):\n    print(f\"Hello, {name}!\")\ndef hello():\n    print(\"hello world\")\n코드 종료\n\n\n참조 링크\n\n구글 링크 추가 구글 링크\n\n\n\n이미지 추가\n\n\n\nConcrete_building"
+  },
+  {
+    "objectID": "posts/markdown/index.html#an-overview-of-markdown-how-it-works-and-what-you-can-do-with-it.",
+    "href": "posts/markdown/index.html#an-overview-of-markdown-how-it-works-and-what-you-can-do-with-it.",
+    "title": "MarkDown Guide",
+    "section": "#### An overview of Markdown, how it works, and what you can do with it. ####",
+    "text": "#### An overview of Markdown, how it works, and what you can do with it. ####"
   }
 ]
