@@ -5,8 +5,11 @@ date: "2023-11-09"
 categories: [news, analysis]
 image : OpenAI_DevDay_Opening Keynote_image.png
 ---
+![](OpenAI_DevDay_Opening Keynote_image.png)
+
 # OpenAI DevDay, Opening Keynote #  
-<br/>
+
+OpenAI의 GPT 4 Turbo 출시, Assistant API에 대한 Opinion
 
 ### 정리 ###  
 
