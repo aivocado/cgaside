@@ -205,22 +205,31 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <hr>
 </section>
 </section>
-<section id="markdown-syntax-마크다운-작성법" class="level1">
-<h1>Markdown Syntax 마크다운 작성법</h1>
-<p>마크다운(Markdown)은 일반 텍스트 문서의 양식을 편집하는 문법입니다.</p>
-<p><br><br> README파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰입니다.<br><br> 마크다운을 이용해 작성된 문서는 쉽게 HTML 등 다른 문서형태로 변환이 가능합니다.<br><br> 존 그루버는 2004년에 문법 면에서 <a href="https://ko.wikipedia.org/wiki/%EC%97%90%EB%9F%B0_%EC%8A%A4%EC%9B%8C%EC%B8%A0">에런 스워츠</a>와 중대한 협업을 통해 마트다운 언어를 만들었으며, 사람들이 일기 쉽고 쓰기 쉬운 플레인 텍스트 포맷을 사용하여 쓸 수 있으면서 구조적으로 유효한 HTML로 선택적 변환이 가능합니다.<a href="http://daringfireball.net/projects/markdown/syntax">John Gruber (DaringFireball)</a>.</p>
-<section id="markdown-pros-마크다운-장점" class="level2">
-<h2 class="anchored" data-anchor-id="markdown-pros-마크다운-장점">Markdown Pros 마크다운 장점</h2>
+<section id="markdown-syntax" class="level1">
+<h1>Markdown Syntax</h1>
+<p>How to Write in Markdown - Syntax &amp; Use Cases</p>
+<section id="definition" class="level2">
+<h2 class="anchored" data-anchor-id="definition">1. Definition</h2>
+<p>README파일이나 온라인 문서, 혹은 일반 텍스트 편집기로 문서 양식을 편집할 때 쓰입니다.<br><br> 존 그루버는 2004년에 문법 면에서 <a href="https://ko.wikipedia.org/wiki/%EC%97%90%EB%9F%B0_%EC%8A%A4%EC%9B%8C%EC%B8%A0">에런 스워츠</a>와 중대한 협업을 통해 마트다운 언어를 만들었으며, 사람들이 일기 쉽고 쓰기 쉬운 플레인 텍스트 포맷을 사용하여 쓸 수 있으면서 구조적으로 유효한 HTML로 선택적 변환이 가능합니다.<a href="http://daringfireball.net/projects/markdown/syntax">John Gruber (DaringFireball)</a>.</p>
+</section>
+<section id="markdown-pros" class="level2">
+<h2 class="anchored" data-anchor-id="markdown-pros">2. Markdown Pros</h2>
 <ul>
 <li><code>읽기 쉽다.</code> 확실히 마크다운은 다른 마크업 언어에 비해 가독성이 좋습니다. 문법도 단순하고, HTML은 작성하면서 브라우저에서 어떻게 보여 질지 예상하는게 쉽지 않지만, 마크다운을 사용한 텍스트는 브라우저에 보여질 내용을 쉽게 상상할 수 있습니다.</li>
 <li><code>익히기 쉽다.</code> 존 그루버는 사람들이 많이 사용하는 것은 마크다운으로 사용하고, 복잡한 것은 HTML로 사용하기 바랬습니다. 그래서 문법이 매우 간단합니다. 그리고 마크다운으로 글을 작성할 때, 제한적인 기능 몇 개를 제외하고 HTML을 함께 사용해도 상관없습니다.</li>
-<li><code>모바일 친화적이다.</code> 단순히 텍스트만 작성하는 것이 아닌 에디터를 이용해 모바일로 작성하는 것은 쉽지 않습니다. 하지만 마크다운을 이용하면 모바일에서도 태그로 쉽게 서식을 넣을 수 있어서, 에디터보다 훨씬 편합니다. ## Markdown Cons 마크다운 단점</li>
+<li><code>모바일 친화적이다.</code> 단순히 텍스트만 작성하는 것이 아닌 에디터를 이용해 모바일로 작성하는 것은 쉽지 않습니다. 하지만 마크다운을 이용하면 모바일에서도 태그로 쉽게 서식을 넣을 수 있어서, 에디터보다 훨씬 편합니다.</li>
+</ul>
+</section>
+<section id="markdown-cons" class="level2">
+<h2 class="anchored" data-anchor-id="markdown-cons">3. Markdown Cons</h2>
+<ul>
 <li><code>문법이 너무 단순하다.</code> 문법이 단순한 나머지 결국에는 HTML을 써야하는 경우가 생깁니다. 테이블 정렬 기능은 있지만, 이미지 정렬 기능이 없어서 HTML의 img 태그를 사용해야합니다. 태그에 클래스 지정등이 불가능하기 때문에, 클래스나 id를 지정하려면 HTML을 사용해야합니다.</li>
 <li><code>표준이 없어 사용자마다 문법이 상이할 수 있다.</code> 문법이 단순하다 보니, 이러한 점을 해결하기 위해 확장문법들이 생겼고, 이러한 것들 때문에 한 곳에서 작동하는 마크다운 문서가 다른 곳에서는 잘 작동하지 않는 경우가 생기기도 합니다.</li>
 </ul>
+<hr>
 </section>
-<section id="마크다운-문법-정리입니다." class="level2">
-<h2 class="anchored" data-anchor-id="마크다운-문법-정리입니다."># 마크다운 문법 정리입니다.</h2>
+<section id="basic-markdown-syntax" class="level2">
+<h2 class="anchored" data-anchor-id="basic-markdown-syntax">4. Basic Markdown Syntax</h2>
 <blockquote class="blockquote">
 <p>이건 인용하는데 사용하는 코드입니다.</p>
 </blockquote>
@@ -267,9 +276,40 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </figure>
 </div>
 <p><img src="concrete_building.jpg" width="400px" height="350px" title="Github_Logo"></p>
-
-
 </section>
+</section>
+<section id="font-color" class="level2">
+<h2 class="anchored" data-anchor-id="font-color">5. Font Color</h2>
+</section>
+<section id="red" class="level2">
+<h2 class="anchored" data-anchor-id="red"><span style="color:red">red</span></h2>
+</section>
+<section id="파랑" class="level2">
+<h2 class="anchored" data-anchor-id="파랑"><span style="color: #0000FF">파랑</span></h2>
+</section>
+<section id="초록" class="level2">
+<h2 class="anchored" data-anchor-id="초록"><span style="color: #008000">초록</span></h2>
+</section>
+<section id="strong" class="level2">
+<h2 class="anchored" data-anchor-id="strong"><span style="color: #2D3748; background-color:#fff5b1;">Strong</span></h2>
+</section>
+<section id="그레이" class="level2">
+<h2 class="anchored" data-anchor-id="그레이"><span style="color: #808080">그레이</span></h2>
+</section>
+<section id="노랑" class="level2">
+<h2 class="anchored" data-anchor-id="노랑"><span style="color: #ffd33d">노랑</span></h2>
+</section>
+<section id="font-bold-italic-underline" class="level2">
+<h2 class="anchored" data-anchor-id="font-bold-italic-underline">6. Font Bold / Italic / Underline</h2>
+<ul>
+<li><p><em>기울기</em>라 적으면 기울기처럼 글자를 기울일 수 있습니다.</p></li>
+<li><p><strong>굵게</strong>라 적으면 굵게처럼 글자를 굵게 표시할 수 있습니다.</p></li>
+<li><p><strong><em>굵게</em></strong>라 적으면 굵으며 기운처럼 글자를 굵으면서도 기울게 표시할 수 있습니다.</p></li>
+<li><p><u>밑줄</u>라 적으면 밑줄처럼 밑줄을 그을 수 있습니다.</p>
+<p>(취향에 따라 * 표시 대신 _(언더라인)으로 대체할 수 있습니다)</p></li>
+</ul>
+
+
 </section>
 </section>
 
