@@ -1,0 +1,50 @@
+---
+title: "EDA Commentary"
+author: "hypeduck"
+date: "2023-11-21"
+categories: [news, analysis]
+---
+
+# TLDR;
+
++ 도메인 지식은 생각보다 금방 습득할 수 있다.
++ OpenAPI와 국가DB 시스템이 굉장히 잘 되어 있는 편이지만, 통합된 느낌은 아니다.
++ 데이터 분석과 전처리는 겸험을 통한 에러와 아이디어이다.
+
+# Commentary
+
+## Data
+
++  law_mst.csv
++  data_2019.xlsx
++  codebook_2022.xlsx
++  research.pdf
+
+## Data Source
+
++ [국가법령정보 공동활용](https://open.law.go.kr/LSO/main.do)에서 Open Api를 통해 Parsing한 것으로 보임.
++ research.pdf에 따르면 이를 통해 재구조화를 한 것으로 보임.
++ Data를 쪼개서 읾부 EOF 문제 발생
+
+### TIL
+
++ csv 파일은 구분단위가 콤마(,) 단위인데, 이 때문에 데이터 문장 내에 콤마가 있는 경우 column 갯수에 대한 문제가 발생
++ 그래서 인용부호("")를 사용하여 각 데이터를 감싼다.
+
+## Domain
+
++ 법 조문 형식의 경우, 자주는 아니지만 익숙한 환경에서 자랐기 때문에 어색하지 않았다.
++ 또한, 빅데이터 핀테크 전문가 과정에서도 법령을 다룬 수업을 진행하여, '제1조가 항상 목적'이고, '제2조가 항상 정의'임을 인지하고 있어, 가공한 데이터 구조분석에도 큰 무리가 없었다.
+
+## EDA
+
++ 임의로 이름지은 Feature들에 대한 해석이 필요했지만,
++ python 라이브러리들 중 EDA를 편리하게 해주는 다양한 라이브러리들이 존재해서 비교적 의미를 빠르게 파악할 수 있었다.
+  + ydata
+  + sweetviz
+  + dtale
+
+## Preprocessing
+
++ EOF처리는 nrows나 skiprows를 처리하면 크게 어렵지 않았다.
++ 아직까지 ML이나 DL을 효율적으로 분석하기 위해 Feature Engineering을 위한 고민을 하는 중이다.
