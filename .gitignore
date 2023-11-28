@@ -5,3 +5,8 @@
 
 /.quarto/
 .DS_Store
+
+*.toml
+*.lock
+
+data

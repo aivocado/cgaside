@@ -1,0 +1,64 @@
+---
+title: "0. BaseTable 만들기"
+subtitle: ""
+description: ""
+author:
+  - name: CGAlpha
+# title-block-banner: true
+#title-block-banner: "#562457"
+format:
+  html:
+    code-fold: true
+    code-overflow: wrap
+    toc: true
+    toc-depth: 3
+    toc-title: 목차
+    number-sections: true
+    highlight-style: github
+    self-contained: false
+
+link-citations: true
+knitr:
+  opts_chunk: 
+    message: false
+    warning: false
+    collapse: true
+    comment: "#>" 
+    R.options:
+      knitr.graphics.auto_pdf: true
+editor_options: 
+  chunk_output_type: console
+---
+
+# 데이터
+
+{{< embed ../jupyter/MakeBaseTable.ipynb#data-info >}}
+
+# 데이터 전처리
+
+## 설명변수(소관부처명, 법령명, 조번호, 항번호, 호번호, 조문제목, 조문)가 모두 결측치인 행 삭제
+
+## 소관부처명 결측치 처리
+
+- 소관부처명 결측치: 45개
+- 동일한 법령에 대해서는 동일한 소관부처를 가짐
+- 이에, 다른 행 중 동일한 법령을 지닌 소관부처 파악 후 결측치 채워줌
+
+## 법령명 결측치 처리
+
+- 조, 항, 조문 통해 법령명 찾아 삽입
+
+## 법령구분 처리
+
+- 법령구분 결측치 처리
+- 법령구분 자료형 int로 통일
+
+## 사무판단 처리
+
+- ' ' -> nan, '0' -> 0 , '1' -> 1, '0 1' -> 2 float 형태로 변환
+
+## 소관부처명 공백 처리
+
+## 조문, 조문 제목 결측치 처리
+
+- 조문, 조문 제목 null값이면 '0'으로 채움
