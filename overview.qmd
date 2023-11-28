@@ -13,8 +13,8 @@ knitr:
       knitr.graphics.auto_pdf: true
 listing:
   contents: dev_posts
-  sort: "date desc"
-  type: default
+  type: table
+  sort : "title desc"
   categories: true
   sort-ui: false
   filter-ui: false
