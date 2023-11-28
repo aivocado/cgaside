@@ -1,0 +1,81 @@
+---
+title: "1. EDA"
+subtitle: ""
+description: ""
+author:
+  - name: CGAlpha
+# title-block-banner: true
+#title-block-banner: "#562457"
+format:
+  html:
+    code-fold: true
+    code-overflow: wrap
+    toc: true
+    toc-depth: 3
+    toc-title: 목차
+    number-sections: true
+    highlight-style: github    
+    self-contained: false
+
+link-citations: true
+knitr:
+  opts_chunk: 
+    message: false
+    warning: false
+    collapse: true
+    comment: "#>" 
+    R.options:
+      knitr.graphics.auto_pdf: true
+editor_options: 
+  chunk_output_type: console
+---
+
+# 그래프 그리기
+
+## 사무판단 개수 파악
+
+- 사무판단 종류: 3개
+    - 사무판단이 0인 경우 : 801598개
+    - 사무판단이 1인 경우 : 60023개
+    - 사무판단이 2인 경우 : 3개
+
+- 사무판단이 2인 경우 빼고 0과 1인 경우만 비교하기
+
+{{< embed ../jupyter/BaseTable2_EDA.ipynb#viz-portion >}}
+
+## 소관부처명에 따른 사무판단
+
+- 소관부처명의 종류 : 122개
+- 사무가 가장 많은 5개 소관부처명 파악
+- 사무 비율이 가장 큰 5개 소관부처명 파악
+
+### 사무가 가장 많은 소관부처명 파악
+
+{{< embed ../jupyter/BaseTable2_EDA.ipynb#sogwan1 >}}
+
+### 사무비율이 가장 큰 소관부처명 파악
+
+{{< embed ../jupyter/BaseTable2_EDA.ipynb#sogwan2 >}}
+
+## 법령명에 따른 사무판단
+
+- 법령명의 종류 : 4324개
+- 사무가 가장 많은 5개 법령명 파악
+- 사무 비율이 가장 큰 5개 법령명 파악
+
+### 사무가 가장 많은 법령명 파악
+
+{{< embed ../jupyter/BaseTable2_EDA.ipynb#sogwan3 >}}
+
+### 사무비율이 가장 큰 법령명 파악
+
+{{< embed ../jupyter/BaseTable2_EDA.ipynb#sogwan4 >}}
+
+## 법령구분에 따른 사무판단
+
+- 법령구분 종류: 3개
+    - 법령구분이 1인 경우 : 365424개
+    - 법령구분이 2인 경우 : 319805개
+    - 법령구분이 3인 경우 : 176395개
+
+{{< embed ../jupyter/BaseTable2_EDA.ipynb#samu1 >}}

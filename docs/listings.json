@@ -7,15 +7,15 @@
       "/posts/Commentary_on_Data_YJ/index.html",
       "/posts/markdown/index.html",
       "/posts/opeanai-devday_hypeduck/index.html",
-      "/posts/yj story/index.html",
-      "/posts/donggeon/index.html"
+      "/posts/donggeon/index.html",
+      "/posts/yj story/index.html"
     ]
   },
   {
     "listing": "/overview.html",
     "items": [
-      "/dev_posts/BaseTable2_EDA.html",
-      "/dev_posts/MakeBaseTable.html"
+      "/dev_posts/MakeBaseTable.html",
+      "/dev_posts/BaseTable2_EDA.html"
     ]
   }
 ]

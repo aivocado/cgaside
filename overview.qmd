@@ -14,7 +14,7 @@ knitr:
 listing:
   contents: dev_posts
   type: table
-  sort : "title desc"
+  sort : "title asc"
   categories: true
   sort-ui: false
   filter-ui: false
