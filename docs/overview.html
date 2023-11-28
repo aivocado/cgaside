@@ -74,9 +74,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -182,64 +182,48 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>:::{#quarto-listing-pipeline .hidden} <span class="hidden" data-render-id="quarto-enable-math-inline"><span class="math inline">\(e = mC^2\)</span></span></p>
-<p>:::{.hidden render-id=“pipeline-listing-listing”}</p>
-:::{.list .quarto-listing-default}
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1701088293971" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./dev_posts/MakeBaseTable.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./dev_posts/MakeBaseTable.html">
-<h3 class="no-anchor listing-title">
-Base Table 만들기
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
 
 
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./dev_posts/MakeBaseTable.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1701091737360" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./dev_posts/BaseTable2_EDA.html"> <p class="card-img-top"><img src="dev_posts/BaseTable2_EDA_files/figure-html/cell-7-output-1.png"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./dev_posts/BaseTable2_EDA.html">
-<h3 class="no-anchor listing-title">
-<ol type="1">
-<li>사무판단 개수 파악
-</li></ol></h3>
-<div class="listing-subtitle">
 
-</div>
-<div class="listing-description">
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
 
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Author
+</th>
+</tr>
+</thead>
+<tbody class="list">
 
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./dev_posts/BaseTable2_EDA.html"> </a>
-</div>
-</div>
-:::
+<tr data-index="0" data-listing-file-modified-sort="1701133927886" data-listing-reading-time-sort="1" data-listing-title-sort="Base Table 만들기" data-listing-filename-sort="MakeBaseTable.ipynb">
+<td>
+<a href="./dev_posts/MakeBaseTable.html" class="title listing-title">Base Table 만들기</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
 
+<tr data-index="1" data-listing-file-modified-sort="1701133927886" data-listing-reading-time-sort="1" data-listing-title-sort="1. 사무판단 개수 파악" data-listing-filename-sort="BaseTable2_EDA.ipynb">
+<td>
+<a href="./dev_posts/BaseTable2_EDA.html" class="title listing-title">1. 사무판단 개수 파악</a>
+</td>
+<td>
+<span class="listing-author"></span>
+</td>
+</tr>
+</tbody>
+
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-<p>:::</p>
-<p>:::</p>
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing"></div></main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -20,7 +20,7 @@ about:
 
 </br>
 
-| <img src="hechan.jpeg" width="200" height="200"> | <img src="yujeong.jpeg" width="200" height="200">  | <img src="donggeon.png" width="200" height="200"> |
+| <img src="heechan.jpeg" width="200" height="200"> | <img src="yujeong.jpeg" width="200" height="200">  | <img src="donggeon.png" width="200" height="200"> |
 |:------------------------------------------------:|:------------------------------------------------:|:------------------------------------------------:|
 | **노희찬**         | **고유정**          | **임동건**        |
 | 클라우드 아키텍트 | 데이터 사이언티스트 | 데이터 사이언티스트 |
